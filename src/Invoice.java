@@ -1,8 +1,8 @@
 public class Invoice {
-    public Integer id;
-    public String title;
-    public Integer amount;
-    public String customer;
+    private Integer id;
+    private String title;
+    private Integer amount;
+    private String customer;
     //getter
     public String getCustomer() {
         return customer;
@@ -10,7 +10,9 @@ public class Invoice {
 
     //setter
 
-
+    public void setId(Integer id) {
+        this.id = id;
+    }
     public void setCustomer(String customer) {
         this.customer = customer;
     }
@@ -18,9 +20,7 @@ public class Invoice {
     public Integer getId() {
         return id;
     }
-    public void setId(Integer id) {
-        this.id = id;
-    }
+
     public String getTitle() {
         return title;
     }
@@ -33,4 +33,6 @@ public class Invoice {
     public void setAmount(Integer amount) {
         this.amount = amount;
     }
+
+
 }

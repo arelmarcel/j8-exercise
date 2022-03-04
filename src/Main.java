@@ -28,6 +28,6 @@ public class Main {
         System.out.println(ascList);
         System.out.println(descList);
         System.out.println("---");
-        
+
     }
 }
